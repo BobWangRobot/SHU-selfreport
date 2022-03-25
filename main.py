@@ -163,7 +163,7 @@ def report_day(sess, t):
             continue
         else:
             print(r.text)
-            return False
+            continue
 
     else:
         print('每日一报填报超时')
